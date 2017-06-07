@@ -1,0 +1,21 @@
+{
+  "name": "GetNewRfqsReceivedResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Body": {
+      "type": "GetNewRfqsReceivedResponseBody"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfGovernmentDataSearchResults",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GovernmentDataSearchResults": {
+      "type": "GovernmentDataSearchResults"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

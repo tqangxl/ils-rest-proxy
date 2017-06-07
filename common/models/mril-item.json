@@ -1,0 +1,45 @@
+{
+  "name": "MrilItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CiicCode": {
+      "type": "string"
+    },
+    "Cognizance": {
+      "type": "string"
+    },
+    "MaterialControlCode": {
+      "type": "string"
+    },
+    "MvmntPriorityDesgntr": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "SchedRemovalComponentInd": {
+      "type": "string"
+    },
+    "ShipUic": {
+      "type": "string"
+    },
+    "ShippingInstructions": {
+      "type": "string"
+    },
+    "SpclMatIdCode": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

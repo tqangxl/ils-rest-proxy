@@ -1,0 +1,21 @@
+{
+  "name": "GetMrosAvailabilityResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Body": {
+      "type": "GetMrosAvailabilityResponseBody"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfArmyMasterDataFilesItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ArmyMasterDataFilesItem": {
+      "type": "ArmyMasterDataFilesItem"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

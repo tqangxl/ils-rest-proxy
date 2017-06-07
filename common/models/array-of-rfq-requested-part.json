@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfRfqRequestedPart",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RfqRequestedPart": {
+      "type": "RfqRequestedPart"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

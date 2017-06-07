@@ -1,0 +1,30 @@
+{
+  "name": "GetRfqCompanyInformation",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CompanyId": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "RfqId": {
+      "type": "number"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CheckInventoryLoadResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "IsComplete": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

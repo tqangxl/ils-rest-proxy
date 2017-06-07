@@ -1,0 +1,48 @@
+{
+  "name": "MajorOrgEntityRule",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AaCode": {
+      "type": "string"
+    },
+    "Amc": {
+      "type": "string"
+    },
+    "Amsc": {
+      "type": "string"
+    },
+    "Collaborators": {
+      "type": "string"
+    },
+    "Dsor": {
+      "type": "string"
+    },
+    "Imc": {
+      "type": "string"
+    },
+    "Imca": {
+      "type": "string"
+    },
+    "MoeCode": {
+      "type": "string"
+    },
+    "MoeRule": {
+      "type": "string"
+    },
+    "Receivers": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

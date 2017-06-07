@@ -1,0 +1,24 @@
+{
+  "name": "ContactInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "rfqRecipient": {
+      "type": "RfqRecipient"
+    },
+    "rfqSender": {
+      "type": "RfqSender"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

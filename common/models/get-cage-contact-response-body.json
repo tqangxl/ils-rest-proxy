@@ -1,0 +1,24 @@
+{
+  "name": "GetCageContactResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CageContact": {
+      "type": "CageContact"
+    },
+    "Faults": {
+      "type": "ArrayOfFault"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

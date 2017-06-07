@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfMajorOrgEntityRule",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MajorOrgEntityRule": {
+      "type": "MajorOrgEntityRule"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "QuoteHistory",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ConditionCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "QuoteDate": {
+      "type": "dateTime"
+    },
+    "QuotePrice": {
+      "type": "string"
+    },
+    "UnitOfMeasure": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "name": "EitSubmission",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Comments": {
+      "type": "string"
+    },
+    "Data": {
+      "type": "base64Binary"
+    },
+    "Database": {
+      "type": "string"
+    },
+    "InventoryType": {
+      "type": "string"
+    },
+    "NumberOfRecords": {
+      "type": "number"
+    },
+    "SubmitTime": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

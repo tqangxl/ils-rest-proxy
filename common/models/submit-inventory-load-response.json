@@ -1,0 +1,21 @@
+{
+  "name": "SubmitInventoryLoadResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Body": {
+      "type": "SubmitInventoryLoadResponseBody"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

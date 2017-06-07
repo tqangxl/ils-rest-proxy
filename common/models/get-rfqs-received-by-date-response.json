@@ -1,0 +1,21 @@
+{
+  "name": "GetRfqsReceivedByDateResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Body": {
+      "type": "GetRfqsReceivedByDateResponseBody"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

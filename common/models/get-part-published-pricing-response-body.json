@@ -1,0 +1,24 @@
+{
+  "name": "GetPartPublishedPricingResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "PublishedPricing": {
+      "type": "ArrayOfPublishedPricing"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

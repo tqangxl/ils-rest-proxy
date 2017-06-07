@@ -1,0 +1,21 @@
+{
+  "name": "MoeData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MoeRuleItem": {
+      "type": "ArrayOfMajorOrgEntityRule"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

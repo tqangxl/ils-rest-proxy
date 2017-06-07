@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPmaSearchResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PmaSearchResult": {
+      "type": "PmaSearchResult"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

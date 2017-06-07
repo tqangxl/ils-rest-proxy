@@ -1,0 +1,33 @@
+{
+  "name": "NextHigherAssembly2330",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Cognizance": {
+      "type": "string"
+    },
+    "FamilyGroupCode": {
+      "type": "string"
+    },
+    "FamilyRelationshipCode": {
+      "type": "string"
+    },
+    "MaterialControlCode": {
+      "type": "string"
+    },
+    "SpclMatIdCode": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

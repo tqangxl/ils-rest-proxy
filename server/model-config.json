@@ -1,0 +1,1244 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "ils": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddMroListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMroInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddMroListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddMroListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfFault": {
+    "dataSource": null,
+    "public": true
+  },
+  "Fault": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfKeyValuePairOfstringstring": {
+    "dataSource": null,
+    "public": true
+  },
+  "KeyValuePairOfstringstring": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroUpdateResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMroUpdateConfirmation": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroUpdateConfirmation": {
+    "dataSource": null,
+    "public": true
+  },
+  "Mro": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAviationPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPartListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddPartListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPartUpdateResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAviationPartUpdateConfirmation": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPartUpdateConfirmation": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAviationPartDetailFields": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPartDetailFields": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeMroListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeMroListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangeMroListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePartListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ChangePartListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "CheckInventoryLoad": {
+    "dataSource": null,
+    "public": true
+  },
+  "CheckInventoryLoadResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CheckInventoryLoadResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAllDataLegacy": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAllDataLegacyResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAllDataLegacyResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "AllDataLegacyResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBatchSearchResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBatchSearchResultsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetBatchSearchResultsResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "BatchSearch": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCageContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCageContactResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCageContactResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "CageContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "CageAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "CageCityState": {
+    "dataSource": null,
+    "public": true
+  },
+  "CageStreetAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetGovernmentData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfstring": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetGovernmentDataResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetGovernmentDataResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfGovernmentDataSearchResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "GovernmentDataSearchResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAirForceIntAndSubItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "AirForceIntAndSubItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "AmdfData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfArmyMasterDataFilesItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArmyMasterDataFilesItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "CrossRefFile": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCrossRefFileItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "CrossRefFileItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "IntAndSubItems": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfIntAndSubItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "IntAndSubItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "EndItemIdentification": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfEndItemIdentificationItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "EndItemIdentificationItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "HistoricalAltNsn": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfHistoricalAltNsnItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "HistoricalAltNsnItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "Mcrl": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMcrlItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "McrlItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "MlcItems": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMlcItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "MlcItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "MoeData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMajorOrgEntityRule": {
+    "dataSource": null,
+    "public": true
+  },
+  "MajorOrgEntityRule": {
+    "dataSource": null,
+    "public": true
+  },
+  "MrilData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMrilItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "MrilItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "NhaData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNextHigherAssembly2300": {
+    "dataSource": null,
+    "public": true
+  },
+  "NextHigherAssembly2300": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNextHigherAssembly2330": {
+    "dataSource": null,
+    "public": true
+  },
+  "NextHigherAssembly2330": {
+    "dataSource": null,
+    "public": true
+  },
+  "NsnInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNsnInfoItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "NsnInfoItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "PhraseCode": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPcItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "PcItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPmaSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "PmaSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "PmaHolder": {
+    "dataSource": null,
+    "public": true
+  },
+  "PmaAddress": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPmaOem": {
+    "dataSource": null,
+    "public": true
+  },
+  "PmaOem": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPmaPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "PmaPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "ProcurementHistoryData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfProcurementItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "ProcurementItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "TcData": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCharacteristic": {
+    "dataSource": null,
+    "public": true
+  },
+  "Characteristic": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMROPartInventorySummary": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMROPartInventorySummaryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMROPartInventorySummaryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartMROInventorySummaryResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartMROInventorySummaryResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMrosAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMrosAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetMrosAvailabilityResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMroListings": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroListings": {
+    "dataSource": null,
+    "public": true
+  },
+  "Company": {
+    "dataSource": null,
+    "public": true
+  },
+  "Address": {
+    "dataSource": null,
+    "public": true
+  },
+  "IlsContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "Fax": {
+    "dataSource": null,
+    "public": true
+  },
+  "Phone": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMroSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceivedWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceivedWithSenderInventoryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceivedWithSenderInventoryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfRfqWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "RfqWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAttachment": {
+    "dataSource": null,
+    "public": true
+  },
+  "Attachment": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContactInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "RfqRecipient": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfIlsContact": {
+    "dataSource": null,
+    "public": true
+  },
+  "RfqSender": {
+    "dataSource": null,
+    "public": true
+  },
+  "Priority": {
+    "dataSource": null,
+    "public": true
+  },
+  "RequestedItemWithSenderInventoryCollection": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfRfqRequestedPartWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "RfqRequestedPartWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSupplierPartListingWithSenderQuantity": {
+    "dataSource": null,
+    "public": true
+  },
+  "SupplierPartListingWithSenderQuantity": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartListingWithSenderQuantity": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartListingWithSenderQuantity": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNiinsByPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNiinsByPartResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNiinsByPartResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNiinListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "NiinListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventorySummary": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventorySummaryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventorySummaryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartInventorySummaryResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartInventorySummaryResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteMroListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMroRecordDeleteKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "MroRecordDeleteKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteMroListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeleteMroListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeletePartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAviationPartRecordKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "AviationPartRecordKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeletePartListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "DeletePartListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewPartQuotesReceived": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewPartQuotesReceivedResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewPartQuotesReceivedResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "NewPartQuotesReceivedCollection": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartsRfqQuote": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartsRfqQuote": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfQuoteRequestedPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuoteRequestedPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuotedPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfQuotedCondition": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuotedCondition": {
+    "dataSource": null,
+    "public": true
+  },
+  "SupplierCompany": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceived": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceivedResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNewRfqsReceivedResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfRfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "Rfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "RequestedItemCollection": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfRfqRequestedPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "RfqRequestedPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSupplierPartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "SupplierPartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventoryStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventoryStatsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartInventoryStatsResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfInventoryStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "InventoryStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartListing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartListingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartListingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfAviationPart": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartOverhaulStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartOverhaulStatsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartOverhaulStatsResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfOverhaulStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "OverhaulStats": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartPublishedPricing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartPublishedPricingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartPublishedPricingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPublishedPricing": {
+    "dataSource": null,
+    "public": true
+  },
+  "PublishedPricing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuoteHistory": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuoteHistoryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuoteHistoryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfQuoteHistory": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuoteHistory": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotesByDate": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotesByDateResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotesByDateResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartQuotesResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartsAvailability": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartsAvailabilityResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartsAvailabilityResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartListings": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartListings": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartStatsAndPricing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartStatsAndPricingResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPartStatsAndPricingResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartStatsAndPricing": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPreferredVendorGroups": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPreferredVendorGroupsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPreferredVendorGroupsResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPreferredVendorGroup": {
+    "dataSource": null,
+    "public": true
+  },
+  "PreferredVendorGroup": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqAttachedDocuments": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNullableOflong": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqAttachedDocumentsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqAttachedDocumentsResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "Document": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqCompanyInformation": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqCompanyInformationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqCompanyInformationResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDateWithSenderInventory": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDateWithSenderInventoryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDateWithSenderInventoryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDate": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDateResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsReceivedByDateResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsSentByDate": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsSentByDateResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqsSentByDateResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRfqResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSupplierDirectory": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSupplierDirectoryResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetSupplierDirectoryResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSupplierSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "SupplierSearchResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfCertification": {
+    "dataSource": null,
+    "public": true
+  },
+  "Certification": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsMROPartAvailable": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsMROPartAvailableResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsMROPartAvailableResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsPartAvailable": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsPartAvailableResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsPartAvailableResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartQuotes": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartsRfqQuoteInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfQuotedPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuotedPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartQuotesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartQuotesResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartRfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartsRfqInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPartSearchResultInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartSearchResultInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartRfqResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartRfqResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendPartsRfqResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNonFatalError": {
+    "dataSource": null,
+    "public": true
+  },
+  "NonFatalError": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendQuickRfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfQuickRfqPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "QuickRfqPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendQuickRfqResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendQuickRfqResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendSearchlessPartRfq": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchlessPartsRfqInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfSearchlessPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "SearchlessPartInput": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendSearchlessPartRfqResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendSearchlessPartRfqResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendMessageBroadcast": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendMessageBroadcastResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SendMessageBroadcastResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitBatchSearch": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitBatchSearchResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitBatchSearchResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "BatchSearchSubmitResult": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitInventoryLoad": {
+    "dataSource": null,
+    "public": true
+  },
+  "EitSubmission": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitInventoryLoadResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitInventoryLoadResponseBody": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubmitEitResult": {
+    "dataSource": null,
+    "public": true
+  }
+}

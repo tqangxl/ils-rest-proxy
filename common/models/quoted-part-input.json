@@ -1,0 +1,27 @@
+{
+  "name": "QuotedPartInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ItemSupplierPartId": {
+      "type": "number"
+    },
+    "NoQuote": {
+      "type": "boolean"
+    },
+    "Part": {
+      "type": "QuotedPart"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

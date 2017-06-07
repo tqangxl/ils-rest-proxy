@@ -1,0 +1,45 @@
+{
+  "name": "Company",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AccreditedVendorLevel": {
+      "type": "string"
+    },
+    "AdditionalInfo": {
+      "type": "string"
+    },
+    "CompanyAddress": {
+      "type": "Address"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "MrosRfqContact": {
+      "type": "IlsContact"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "PartsRfqContact": {
+      "type": "IlsContact"
+    },
+    "SalesContact": {
+      "type": "IlsContact"
+    },
+    "SupplierCAGE": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

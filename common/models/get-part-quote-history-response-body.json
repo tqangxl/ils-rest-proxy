@@ -1,0 +1,24 @@
+{
+  "name": "GetPartQuoteHistoryResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "QuoteHistory": {
+      "type": "ArrayOfQuoteHistory"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

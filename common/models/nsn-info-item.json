@@ -1,0 +1,57 @@
+{
+  "name": "NsnInfoItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AdpCode": {
+      "type": "string"
+    },
+    "Crit": {
+      "type": "string"
+    },
+    "DemilitarizationCode": {
+      "type": "string"
+    },
+    "Esd": {
+      "type": "string"
+    },
+    "FedItemIdentGuide": {
+      "type": "string"
+    },
+    "Hmic": {
+      "type": "string"
+    },
+    "Ii": {
+      "type": "string"
+    },
+    "Isc": {
+      "type": "string"
+    },
+    "ItemNameCode": {
+      "type": "string"
+    },
+    "Orig": {
+      "type": "string"
+    },
+    "Pmic": {
+      "type": "string"
+    },
+    "Rdpmrc": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

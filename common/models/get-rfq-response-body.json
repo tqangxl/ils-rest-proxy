@@ -1,0 +1,24 @@
+{
+  "name": "GetRfqResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "Rfq": {
+      "type": "Rfq"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

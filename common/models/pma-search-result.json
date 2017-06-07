@@ -1,0 +1,30 @@
+{
+  "name": "PmaSearchResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CompressedPartNumber": {
+      "type": "string"
+    },
+    "PmaHolder": {
+      "type": "PmaHolder"
+    },
+    "PmaOems": {
+      "type": "ArrayOfPmaOem"
+    },
+    "PmaParts": {
+      "type": "ArrayOfPmaPart"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

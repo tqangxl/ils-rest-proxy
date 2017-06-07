@@ -1,0 +1,39 @@
+{
+  "name": "CageContact",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Address": {
+      "type": "CageAddress"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "Division": {
+      "type": "string"
+    },
+    "FaxNumber": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

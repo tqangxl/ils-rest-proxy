@@ -1,0 +1,54 @@
+{
+  "name": "Rfq",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Attachments": {
+      "type": "ArrayOfAttachment"
+    },
+    "CloseDate": {
+      "type": "dateTime"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "ContactInfo": {
+      "type": "ContactInfo"
+    },
+    "CreateDate": {
+      "type": "dateTime"
+    },
+    "DeliverByDate": {
+      "type": "dateTime"
+    },
+    "EntryCode": {
+      "type": "string"
+    },
+    "Priority": {
+      "type": "Priority"
+    },
+    "QuoteWithinDays": {
+      "type": "number"
+    },
+    "ReferenceNumber": {
+      "type": "string"
+    },
+    "RequestedItems": {
+      "type": "RequestedItemCollection"
+    },
+    "RfqId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

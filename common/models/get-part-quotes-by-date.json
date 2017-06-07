@@ -1,0 +1,27 @@
+{
+  "name": "GetPartQuotesByDate",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DateToRetrieve": {
+      "type": "dateTime"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "MlcItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AaCode": {
+      "type": "string"
+    },
+    "Amcc": {
+      "type": "string"
+    },
+    "CiicCode": {
+      "type": "string"
+    },
+    "Mcd": {
+      "type": "string"
+    },
+    "Mmac": {
+      "type": "string"
+    },
+    "Qp": {
+      "type": "string"
+    },
+    "RecoverabilityCode": {
+      "type": "string"
+    },
+    "ServiceAgency": {
+      "type": "string"
+    },
+    "SlcCode": {
+      "type": "string"
+    },
+    "SosCode": {
+      "type": "string"
+    },
+    "SpclMatIdCode": {
+      "type": "string"
+    },
+    "UiCode": {
+      "type": "string"
+    },
+    "UnitPrice": {
+      "type": "string"
+    },
+    "Usc": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "SearchlessPartInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AlternatePartNumber": {
+      "type": "string"
+    },
+    "ConditionCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

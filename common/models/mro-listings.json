@@ -1,0 +1,24 @@
+{
+  "name": "MroListings",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Company": {
+      "type": "Company"
+    },
+    "Mros": {
+      "type": "ArrayOfMroSearchResult"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

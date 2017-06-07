@@ -1,0 +1,30 @@
+{
+  "name": "SubmitEitResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EitReceived": {
+      "type": "boolean"
+    },
+    "EmailSent": {
+      "type": "boolean"
+    },
+    "ErrDescription": {
+      "type": "string"
+    },
+    "InventoryLoadId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

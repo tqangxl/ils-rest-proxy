@@ -1,0 +1,48 @@
+{
+  "name": "ProcurementItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AwardDate": {
+      "type": "dateTime"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "Clin": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "ContractNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "SosCode": {
+      "type": "string"
+    },
+    "TotalPrice": {
+      "type": "number"
+    },
+    "Unit": {
+      "type": "string"
+    },
+    "UnitPrice": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

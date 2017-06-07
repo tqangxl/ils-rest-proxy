@@ -1,0 +1,27 @@
+{
+  "name": "NiinListing",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Fsc": {
+      "type": "string"
+    },
+    "ItemName": {
+      "type": "string"
+    },
+    "Niin": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

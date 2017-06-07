@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfQuickRfqPartInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "QuickRfqPartInput": {
+      "type": "QuickRfqPartInput"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

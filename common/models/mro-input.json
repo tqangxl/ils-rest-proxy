@@ -1,0 +1,39 @@
+{
+  "name": "MroInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Agency": {
+      "type": "string"
+    },
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ExchangeCode": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

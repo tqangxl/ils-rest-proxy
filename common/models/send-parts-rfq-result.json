@@ -1,0 +1,24 @@
+{
+  "name": "SendPartsRfqResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "NonFatalErrors": {
+      "type": "ArrayOfNonFatalError"
+    },
+    "Rfq": {
+      "type": "Rfq"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

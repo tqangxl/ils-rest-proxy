@@ -1,0 +1,30 @@
+{
+  "name": "PartStatsAndPricing",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "InventoryStatsCollection": {
+      "type": "ArrayOfInventoryStats"
+    },
+    "OverhaulStatsCollection": {
+      "type": "ArrayOfOverhaulStats"
+    },
+    "PublishedPricingCollection": {
+      "type": "ArrayOfPublishedPricing"
+    },
+    "QuoteHistoryCollection": {
+      "type": "ArrayOfQuoteHistory"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

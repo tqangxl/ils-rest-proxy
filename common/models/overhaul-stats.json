@@ -1,0 +1,42 @@
+{
+  "name": "OverhaulStats",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ActivityMonth": {
+      "type": "string"
+    },
+    "ActivityYear": {
+      "type": "string"
+    },
+    "AvailableSources": {
+      "type": "number"
+    },
+    "EndUserCompanies": {
+      "type": "number"
+    },
+    "EndUserInquiries": {
+      "type": "number"
+    },
+    "NonEndUserCompanies": {
+      "type": "number"
+    },
+    "NonEndUserInquiries": {
+      "type": "number"
+    },
+    "PartNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

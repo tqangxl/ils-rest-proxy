@@ -1,0 +1,39 @@
+{
+  "name": "QuoteRequestedPart",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ItemId": {
+      "type": "number"
+    },
+    "ItemSupplierPartId": {
+      "type": "number"
+    },
+    "NoQuote": {
+      "type": "boolean"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quote": {
+      "type": "QuotedPart"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

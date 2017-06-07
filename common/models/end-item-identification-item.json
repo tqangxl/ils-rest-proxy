@@ -1,0 +1,27 @@
+{
+  "name": "EndItemIdentificationItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EndItemCode": {
+      "type": "string"
+    },
+    "EndItemName": {
+      "type": "string"
+    },
+    "ServiceAgency": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

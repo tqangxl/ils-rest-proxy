@@ -1,0 +1,45 @@
+{
+  "name": "PartSearchResultInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AlternatePartNumber": {
+      "type": "string"
+    },
+    "BuyerPartDescription": {
+      "type": "string"
+    },
+    "ConditionCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "PartEntered": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "SearchPartId": {
+      "type": "number"
+    },
+    "SupplierId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfAviationPartDetailFields",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AviationPartDetailFields": {
+      "type": "AviationPartDetailFields"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

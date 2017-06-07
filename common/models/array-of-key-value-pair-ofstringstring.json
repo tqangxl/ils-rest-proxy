@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfKeyValuePairOfstringstring",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "KeyValuePairOfstringstring": {
+      "type": "KeyValuePairOfstringstring"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

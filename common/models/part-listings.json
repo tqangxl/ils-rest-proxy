@@ -1,0 +1,24 @@
+{
+  "name": "PartListings",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Company": {
+      "type": "Company"
+    },
+    "Parts": {
+      "type": "ArrayOfPartSearchResult"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "GetSupplierDirectory",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Location": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "SearchTerm": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

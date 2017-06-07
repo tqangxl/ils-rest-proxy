@@ -1,0 +1,36 @@
+{
+  "name": "IntAndSubItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "JtcCode": {
+      "type": "string"
+    },
+    "OouCode": {
+      "type": "string"
+    },
+    "PhraseCode": {
+      "type": "string"
+    },
+    "Pica": {
+      "type": "string"
+    },
+    "RelatedNsn": {
+      "type": "string"
+    },
+    "ServiceAgency": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

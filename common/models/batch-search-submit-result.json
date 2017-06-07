@@ -1,0 +1,27 @@
+{
+  "name": "BatchSearchSubmitResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "BatchSearchId": {
+      "type": "number"
+    },
+    "BatchSearchReceived": {
+      "type": "boolean"
+    },
+    "ErrDescription": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

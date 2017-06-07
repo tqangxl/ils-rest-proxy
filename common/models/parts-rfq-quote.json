@@ -1,0 +1,33 @@
+{
+  "name": "PartsRfqQuote",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Attachments": {
+      "type": "ArrayOfAttachment"
+    },
+    "Parts": {
+      "type": "ArrayOfQuoteRequestedPart"
+    },
+    "ReferenceNumber": {
+      "type": "string"
+    },
+    "RfqId": {
+      "type": "number"
+    },
+    "Supplier": {
+      "type": "SupplierCompany"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

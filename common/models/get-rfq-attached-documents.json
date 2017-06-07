@@ -1,0 +1,30 @@
+{
+  "name": "GetRfqAttachedDocuments",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DocumentId": {
+      "type": "ArrayOfNullableOflong"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "RfqId": {
+      "type": "number"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

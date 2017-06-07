@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfSupplierPartListing",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SupplierPartListing": {
+      "type": "SupplierPartListing"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

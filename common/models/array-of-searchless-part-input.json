@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfSearchlessPartInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SearchlessPartInput": {
+      "type": "SearchlessPartInput"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

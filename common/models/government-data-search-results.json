@@ -1,0 +1,81 @@
+{
+  "name": "GovernmentDataSearchResults",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AirForceIandS": {
+      "type": "ArrayOfAirForceIntAndSubItem"
+    },
+    "AmdfData": {
+      "type": "AmdfData"
+    },
+    "CrossReferenceData": {
+      "type": "CrossRefFile"
+    },
+    "DisData": {
+      "type": "IntAndSubItems"
+    },
+    "EndItemIdentification": {
+      "type": "EndItemIdentification"
+    },
+    "Fsc": {
+      "type": "string"
+    },
+    "HasPartsAvailability": {
+      "type": "string"
+    },
+    "HistInd": {
+      "type": "string"
+    },
+    "HistoricalAltNsn": {
+      "type": "HistoricalAltNsn"
+    },
+    "ItemName": {
+      "type": "string"
+    },
+    "McrlData": {
+      "type": "Mcrl"
+    },
+    "MlcData": {
+      "type": "MlcItems"
+    },
+    "MoeData": {
+      "type": "MoeData"
+    },
+    "MrilData": {
+      "type": "MrilData"
+    },
+    "NhaData": {
+      "type": "NhaData"
+    },
+    "Niin": {
+      "type": "string"
+    },
+    "NsnInfo": {
+      "type": "NsnInfo"
+    },
+    "PhraseCode": {
+      "type": "PhraseCode"
+    },
+    "PmaSearchResults": {
+      "type": "ArrayOfPmaSearchResult"
+    },
+    "ProcurementHistoryData": {
+      "type": "ProcurementHistoryData"
+    },
+    "TcData": {
+      "type": "TcData"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

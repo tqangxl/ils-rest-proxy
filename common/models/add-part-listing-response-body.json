@@ -1,0 +1,24 @@
+{
+  "name": "AddPartListingResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "UpdateResult": {
+      "type": "AviationPartUpdateResult"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

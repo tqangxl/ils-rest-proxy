@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPartSearchResultInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartSearchResultInput": {
+      "type": "PartSearchResultInput"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

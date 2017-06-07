@@ -1,0 +1,42 @@
+{
+  "name": "PartInventorySummaryResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ARQuantity": {
+      "type": "string"
+    },
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "NEQuantity": {
+      "type": "string"
+    },
+    "NSQuantity": {
+      "type": "string"
+    },
+    "OHQuantity": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "SVQuantity": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

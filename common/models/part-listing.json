@@ -1,0 +1,48 @@
+{
+  "name": "PartListing",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "AltQuantity": {
+      "type": "string"
+    },
+    "ConditionCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ItemSupplierPartId": {
+      "type": "number"
+    },
+    "Maker": {
+      "type": "string"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "TraceabilityCode": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

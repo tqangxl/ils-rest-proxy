@@ -1,0 +1,9 @@
+{
+  "soapDS": {
+    "name": "soapDS",
+    "connector": "soap",
+    "remotingEnabled": true,
+    "url": "https://secure.ilsmart.com/services/v1/soap11",
+    "wsdl": "https://secure.ilsmart.com/services/v1/soap11?wsdl"
+  }
+}

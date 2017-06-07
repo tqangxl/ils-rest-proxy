@@ -1,0 +1,39 @@
+{
+  "name": "PcItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "JtcCode": {
+      "type": "string"
+    },
+    "OouCode": {
+      "type": "string"
+    },
+    "PhraseCode": {
+      "type": "string"
+    },
+    "Qpa": {
+      "type": "string"
+    },
+    "ServiceAgency": {
+      "type": "string"
+    },
+    "Statement": {
+      "type": "string"
+    },
+    "UnitOfMeasure": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

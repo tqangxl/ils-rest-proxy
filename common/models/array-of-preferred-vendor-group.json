@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPreferredVendorGroup",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PreferredVendorGroup": {
+      "type": "PreferredVendorGroup"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

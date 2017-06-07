@@ -1,0 +1,39 @@
+{
+  "name": "SearchlessPartsRfqInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Comment": {
+      "type": "string"
+    },
+    "DeliverByDate": {
+      "type": "dateTime"
+    },
+    "Parts": {
+      "type": "ArrayOfSearchlessPartInput"
+    },
+    "Priority": {
+      "type": "string"
+    },
+    "QuoteWithinDays": {
+      "type": "number"
+    },
+    "ReferenceNumber": {
+      "type": "string"
+    },
+    "Suppliers": {
+      "type": "ArrayOfstring"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

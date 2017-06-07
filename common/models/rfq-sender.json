@@ -1,0 +1,24 @@
+{
+  "name": "RfqSender",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "IlsContact": {
+      "type": "IlsContact"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,57 @@
+{
+  "name": "AviationPart",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "AviationPartDetails": {
+      "type": "ArrayOfAviationPartDetailFields"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Condition": {
+      "type": "string"
+    },
+    "ControlCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ListCode": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "Unit": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "name": "PmaHolder",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Address": {
+      "type": "PmaAddress"
+    },
+    "ApprovalDate": {
+      "type": "dateTime"
+    },
+    "ApprovalMeans": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Mido": {
+      "type": "string"
+    },
+    "PmaHolderName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

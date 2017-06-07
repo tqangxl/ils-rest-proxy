@@ -1,0 +1,36 @@
+{
+  "name": "Mro",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AltPartNumber": {
+      "type": "string"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ExchangeCode": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

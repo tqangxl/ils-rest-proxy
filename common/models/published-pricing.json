@@ -1,0 +1,42 @@
+{
+  "name": "PublishedPricing",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ConditionCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "ModelUsage": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "UnitOfMeasure": {
+      "type": "string"
+    },
+    "UpdateDate": {
+      "type": "dateTime"
+    },
+    "VendorMFGName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

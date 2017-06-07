@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfQuoteRequestedPart",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "QuoteRequestedPart": {
+      "type": "QuoteRequestedPart"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

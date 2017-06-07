@@ -1,0 +1,36 @@
+{
+  "name": "AviationPartDetailFields",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Certification": {
+      "type": "string"
+    },
+    "Custom1": {
+      "type": "string"
+    },
+    "Custom2": {
+      "type": "string"
+    },
+    "DetailId": {
+      "type": "number"
+    },
+    "SerialNumber": {
+      "type": "string"
+    },
+    "Traceability": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

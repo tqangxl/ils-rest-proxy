@@ -1,0 +1,90 @@
+{
+  "name": "ArmyMasterDataFilesItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AaCode": {
+      "type": "string"
+    },
+    "AecCode": {
+      "type": "string"
+    },
+    "ArcCode": {
+      "type": "string"
+    },
+    "AricCode": {
+      "type": "string"
+    },
+    "CiicCode": {
+      "type": "string"
+    },
+    "EcCode": {
+      "type": "string"
+    },
+    "EiCode": {
+      "type": "string"
+    },
+    "Epi": {
+      "type": "string"
+    },
+    "Fc": {
+      "type": "string"
+    },
+    "IccCode": {
+      "type": "string"
+    },
+    "LccCode": {
+      "type": "string"
+    },
+    "Lin": {
+      "type": "string"
+    },
+    "MaintenanceRepairCode": {
+      "type": "string"
+    },
+    "Mgmt": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "number"
+    },
+    "RecoverabilityCode": {
+      "type": "string"
+    },
+    "RiccCode": {
+      "type": "string"
+    },
+    "ScicCode": {
+      "type": "string"
+    },
+    "ScmCode": {
+      "type": "string"
+    },
+    "SlcCode": {
+      "type": "string"
+    },
+    "SosCode": {
+      "type": "string"
+    },
+    "SrcCode": {
+      "type": "string"
+    },
+    "UiCode": {
+      "type": "string"
+    },
+    "UnitOfMeasure": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

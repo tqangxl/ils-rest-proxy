@@ -1,0 +1,36 @@
+{
+  "name": "RfqRequestedPartWithSenderInventory",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Description": {
+      "type": "string"
+    },
+    "ItemId": {
+      "type": "number"
+    },
+    "ItemNumber": {
+      "type": "number"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "SupplierListings": {
+      "type": "ArrayOfSupplierPartListingWithSenderQuantity"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

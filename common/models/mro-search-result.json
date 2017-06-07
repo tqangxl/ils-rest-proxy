@@ -1,0 +1,30 @@
+{
+  "name": "MroSearchResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AlternatePartNumber": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "IsPreferredVendor": {
+      "type": "boolean"
+    },
+    "PartNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

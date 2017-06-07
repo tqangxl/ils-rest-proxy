@@ -1,0 +1,24 @@
+{
+  "name": "GetAllDataLegacyResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AllDataLegacyResults": {
+      "type": "AllDataLegacyResult"
+    },
+    "Faults": {
+      "type": "ArrayOfFault"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

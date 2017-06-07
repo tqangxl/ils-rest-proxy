@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfMroUpdateConfirmation",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MroUpdateConfirmation": {
+      "type": "MroUpdateConfirmation"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

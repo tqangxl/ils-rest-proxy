@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfHistoricalAltNsnItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "HistoricalAltNsnItem": {
+      "type": "HistoricalAltNsnItem"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

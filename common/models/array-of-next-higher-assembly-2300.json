@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfNextHigherAssembly2300",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "NextHigherAssembly2300": {
+      "type": "NextHigherAssembly2300"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TcData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Characteristics": {
+      "type": "ArrayOfCharacteristic"
+    },
+    "Definition": {
+      "type": "string"
+    },
+    "FedItemIdentGuide": {
+      "type": "string"
+    },
+    "ItemName": {
+      "type": "string"
+    },
+    "ItemNameCode": {
+      "type": "string"
+    },
+    "Niin": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPartsRfqQuote",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartsRfqQuote": {
+      "type": "PartsRfqQuote"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

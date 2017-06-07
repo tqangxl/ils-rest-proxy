@@ -1,0 +1,24 @@
+{
+  "name": "NhaData",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Nha2300": {
+      "type": "ArrayOfNextHigherAssembly2300"
+    },
+    "Nha2330": {
+      "type": "ArrayOfNextHigherAssembly2330"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

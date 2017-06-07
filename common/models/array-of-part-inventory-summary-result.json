@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPartInventorySummaryResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartInventorySummaryResult": {
+      "type": "PartInventorySummaryResult"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

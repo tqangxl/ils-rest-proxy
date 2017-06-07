@@ -1,0 +1,51 @@
+{
+  "name": "QuotedCondition",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ConditionCd": {
+      "type": "string"
+    },
+    "ItemComments": {
+      "type": "string"
+    },
+    "LeadTime": {
+      "type": "string"
+    },
+    "MinQuantity": {
+      "type": "number"
+    },
+    "Price": {
+      "type": "number"
+    },
+    "PriceType": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "QuoteId": {
+      "type": "number"
+    },
+    "TagDate": {
+      "type": "dateTime"
+    },
+    "Traceability": {
+      "type": "string"
+    },
+    "UnitOfMeasure": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

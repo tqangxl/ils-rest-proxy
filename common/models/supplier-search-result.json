@@ -1,0 +1,78 @@
+{
+  "name": "SupplierSearchResult",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AccountingContact": {
+      "type": "IlsContact"
+    },
+    "Association": {
+      "type": "string"
+    },
+    "CatalogURL": {
+      "type": "string"
+    },
+    "Certifications": {
+      "type": "ArrayOfCertification"
+    },
+    "City": {
+      "type": "string"
+    },
+    "CompanyContact": {
+      "type": "IlsContact"
+    },
+    "CompanyDesc": {
+      "type": "string"
+    },
+    "CompanyID": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "CompanyURL": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Detail": {
+      "type": "string"
+    },
+    "Distance": {
+      "type": "string"
+    },
+    "EmailAddress": {
+      "type": "string"
+    },
+    "License": {
+      "type": "string"
+    },
+    "RepairServiceOf": {
+      "type": "string"
+    },
+    "RfqContact": {
+      "type": "IlsContact"
+    },
+    "State": {
+      "type": "string"
+    },
+    "SupplierContact": {
+      "type": "IlsContact"
+    },
+    "SupplierOf": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

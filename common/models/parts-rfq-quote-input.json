@@ -1,0 +1,27 @@
+{
+  "name": "PartsRfqQuoteInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Comments": {
+      "type": "string"
+    },
+    "Quote": {
+      "type": "ArrayOfQuotedPartInput"
+    },
+    "RfqId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "GetRfqAttachedDocumentsResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Document": {
+      "type": "ArrayOfDocument"
+    },
+    "Faults": {
+      "type": "ArrayOfFault"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

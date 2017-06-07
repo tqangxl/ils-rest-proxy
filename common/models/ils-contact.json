@@ -1,0 +1,39 @@
+{
+  "name": "IlsContact",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CompanyId": {
+      "type": "string"
+    },
+    "ContactId": {
+      "type": "number"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "Fax"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "Phone"
+    },
+    "Title": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

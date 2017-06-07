@@ -1,0 +1,36 @@
+{
+  "name": "HistoricalAltNsnItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Fsc": {
+      "type": "string"
+    },
+    "Isc": {
+      "type": "string"
+    },
+    "Replaced": {
+      "type": "dateTime"
+    },
+    "ReplacedNiin": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "StdOrig": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

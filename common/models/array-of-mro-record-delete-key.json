@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfMroRecordDeleteKey",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MroRecordDeleteKey": {
+      "type": "MroRecordDeleteKey"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

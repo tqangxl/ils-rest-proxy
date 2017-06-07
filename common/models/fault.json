@@ -1,0 +1,33 @@
+{
+  "name": "Fault",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AdditionalInfo": {
+      "type": "ArrayOfKeyValuePairOfstringstring"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Severity": {
+      "type": "string"
+    },
+    "SubType": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

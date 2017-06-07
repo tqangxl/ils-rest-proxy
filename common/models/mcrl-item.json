@@ -1,0 +1,39 @@
+{
+  "name": "McrlItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Cage": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "Dac": {
+      "type": "string"
+    },
+    "Historical": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Rncc": {
+      "type": "string"
+    },
+    "Rnvc": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

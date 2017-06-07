@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfOverhaulStats",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OverhaulStats": {
+      "type": "OverhaulStats"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

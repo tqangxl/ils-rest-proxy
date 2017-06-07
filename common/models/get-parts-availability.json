@@ -1,0 +1,42 @@
+{
+  "name": "GetPartsAvailability",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ConditionCodes": {
+      "type": "ArrayOfstring"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "UseMcrlXref": {
+      "type": "boolean"
+    },
+    "UsePmaXref": {
+      "type": "boolean"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

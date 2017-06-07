@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfAviationPartUpdateConfirmation",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AviationPartUpdateConfirmation": {
+      "type": "AviationPartUpdateConfirmation"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

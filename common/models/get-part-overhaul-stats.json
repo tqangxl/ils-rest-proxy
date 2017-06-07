@@ -1,0 +1,30 @@
+{
+  "name": "GetPartOverhaulStats",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ExactMatch": {
+      "type": "boolean"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Phone",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CountryCallingCode": {
+      "type": "number"
+    },
+    "Extension": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,42 @@
+{
+  "name": "SendQuickRfq",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ConditionCodes": {
+      "type": "ArrayOfstring"
+    },
+    "IncludeMcrlCrossRef": {
+      "type": "boolean"
+    },
+    "IncludePmaCrossRef": {
+      "type": "boolean"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Parts": {
+      "type": "ArrayOfQuickRfqPartInput"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "PreferredVendorGroupId": {
+      "type": "number"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPartListingWithSenderQuantity",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartListingWithSenderQuantity": {
+      "type": "PartListingWithSenderQuantity"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

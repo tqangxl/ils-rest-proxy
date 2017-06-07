@@ -1,0 +1,33 @@
+{
+  "name": "CageAddress",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CityState": {
+      "type": "CageCityState"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "PoBox": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "StreetAddress": {
+      "type": "CageStreetAddress"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

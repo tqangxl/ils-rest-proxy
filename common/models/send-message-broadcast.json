@@ -1,0 +1,33 @@
+{
+  "name": "SendMessageBroadcast",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Category": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "UserId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

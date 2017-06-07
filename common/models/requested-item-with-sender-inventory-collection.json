@@ -1,0 +1,21 @@
+{
+  "name": "RequestedItemWithSenderInventoryCollection",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Item": {
+      "type": "ArrayOfRfqRequestedPartWithSenderInventory"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

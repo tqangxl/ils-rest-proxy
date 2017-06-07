@@ -1,0 +1,24 @@
+{
+  "name": "GetNewRfqsReceivedWithSenderInventoryResponseBody",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Faults": {
+      "type": "ArrayOfFault"
+    },
+    "Rfqs": {
+      "type": "ArrayOfRfqWithSenderInventory"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

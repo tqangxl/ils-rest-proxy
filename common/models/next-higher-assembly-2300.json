@@ -1,0 +1,69 @@
+{
+  "name": "NextHigherAssembly2300",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "AllowanceListCode": {
+      "type": "string"
+    },
+    "AltFrc": {
+      "type": "string"
+    },
+    "AltNiin": {
+      "type": "string"
+    },
+    "Cage": {
+      "type": "string"
+    },
+    "Cognizance": {
+      "type": "string"
+    },
+    "FamilyRelationshipCode": {
+      "type": "string"
+    },
+    "ItemName": {
+      "type": "string"
+    },
+    "LocalRoutingCode": {
+      "type": "string"
+    },
+    "MaintenanceRepairCode": {
+      "type": "string"
+    },
+    "MaterialControlCode": {
+      "type": "string"
+    },
+    "Model": {
+      "type": "string"
+    },
+    "Nha": {
+      "type": "string"
+    },
+    "PackingData": {
+      "type": "string"
+    },
+    "PartNumber": {
+      "type": "string"
+    },
+    "Smr": {
+      "type": "string"
+    },
+    "SpclMatIdCode": {
+      "type": "string"
+    },
+    "Upa": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

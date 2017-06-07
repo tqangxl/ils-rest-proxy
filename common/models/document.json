@@ -1,0 +1,30 @@
+{
+  "name": "Document",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Content": {
+      "type": "base64Binary"
+    },
+    "Id": {
+      "type": "number"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

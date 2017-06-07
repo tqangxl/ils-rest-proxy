@@ -1,0 +1,36 @@
+{
+  "name": "PartsRfqInput",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Comment": {
+      "type": "string"
+    },
+    "DeliverByDate": {
+      "type": "dateTime"
+    },
+    "Parts": {
+      "type": "ArrayOfPartSearchResultInput"
+    },
+    "Priority": {
+      "type": "string"
+    },
+    "QuoteWithinDays": {
+      "type": "number"
+    },
+    "ReferenceNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
